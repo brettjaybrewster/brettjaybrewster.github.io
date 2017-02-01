@@ -1,0 +1,99 @@
+body {
+    background-image: url("images/indians_nose.jpg");
+    font-family: cursive, sans-serif;
+    text-align: center;
+    color: white;
+}
+div#header {
+    font-family: Times, serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: darkslategray;
+}
+div#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div#header ul li {
+    text-align: center;
+    display: inline;
+    width: 20%;
+    float: left;
+    margin-right: -2px;
+    border-right: 2px solid white;
+    border-bottom: 3px solid white;
+    padding: 4px 0 4px 0;
+}
+div#header ul li#far_right_header_item {
+    border-right: 0px solid white;
+}
+div#header ul li a {
+    font-size: 1.2em;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+h1 {
+    font-size: 3.5em;
+    margin: 1.4em 0 0.2em 0;
+}
+#mission_statement {
+    width: 40%;
+    text-align: justify;
+}
+#mission_statement h4 {
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+#mission_statement p {
+    margin-top: -1em;
+}
+#how_to {
+    width: 40%;
+    text-align: justify;
+}
+#how_to h4 {
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+#how_to p {
+    margin-top: -1em;
+}
+.image_box {
+    margin: 2em auto 0 auto;
+    width: 90%;
+}
+.image_box img {
+    float: left;
+    display: inline;
+    border: 3px solid black;
+    padding: 0px;
+    margin: 0 5px 5px 0;
+    background-color: white;
+    border-radius: 3em;
+}
+.image_box img:active {
+    visibility: hidden;
+}
+#title {
+    text-decoration: underline;
+}
+h3 {
+    text-align: left;
+}
+div.pair {
+    border: 3px solid white;
+    display: inline-block;
+    float: left;
+    padding: .4em .2em .2em .4em;
+    margin: .3em .3em 0 0;
+}
+@media only screen and (min-device-width: 800px) {
+    p {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+}
